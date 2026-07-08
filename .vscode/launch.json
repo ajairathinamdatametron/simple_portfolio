@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open Portfolio",
+            "file": "C:\\Users\\AJAI RATHINAM\\Desktop\\portfolio-html\\index.html"
+        }
+    ]
+}

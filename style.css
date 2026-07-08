@@ -1,0 +1,255 @@
+ nav { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 15px;
+    z-index: 1000;
+    margin-bottom: 130px;
+    justify-content: flex-end;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    justify-content: flex-end;
+   
+}
+
+        nav a:hover {
+            color:rgb(17, 190, 237);
+        }
+        #i1 {
+            width:200px;
+            height:200px;
+            border-radius: 50%;
+           margin-top: 120px;
+            margin-left: 60px;
+        }html{
+    scroll-behavior: smooth;
+}
+       
+
+          .profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 30px;
+        }.about{
+            
+            color: rgb(255, 255, 255);
+
+        }#name{
+            margin-left: 80px;
+            color: rgb(255, 255, 255);
+
+        }#title{
+            margin-left: 100px;
+            color: rgb(255, 255, 255);
+        }.button{
+            background-color: rgb(99, 189, 227);
+            border-radius: 20px;
+            margin-left: 60px;
+           color: white;
+           font-size: 15px;
+           padding: 12px;
+           border: none;
+           cursor: pointer;
+
+        }.button:hover{
+            background-color: aqua;
+        }
+        body{
+            background-color: #333;
+           
+        
+
+
+
+} .tittle{
+                text-align: center;
+                color:aliceblue;
+                
+            }
+            .s1{
+                color: rgb(0, 98, 255)
+            }
+            .img{
+            width: 60px;
+            height: 60px;
+        }
+        section {
+    scroll-margin-top: 80px;
+
+}.skills{
+    width:100px;
+    height:100px;
+    object-fit:contain;
+    background:#1e293b;
+    padding:15px 20px;
+    border-radius:12px;
+    align-items:center;
+    gap:10px;
+    transition:0.3s;
+    border:2px solid #38bdf8;
+    cursor:default;
+    color:#38bdf8;
+}.skills:hover{
+    transform: translateY(-5px);
+    background: #38bdf8;
+    color: white;
+    box-shadow:0 0 20px rgba(56,189,248,0.4);
+}::marker { 
+  color: rgb(0, 98, 255);
+  font-size: 23px;
+}ul li{
+    color: aliceblue;
+}dl dd{
+    color: aliceblue;
+}dl dt{
+    color:aliceblue
+}
+.project-card{
+    background:#1e293b;
+    border-radius:16px;
+    padding:15px;
+    width:320px;  
+    text-align:center;
+    
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px rgba(56,189,248,0.4);
+}
+
+.project-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:12px;
+}.projects-container{
+    display:flex;
+    gap:35px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.project-gallery img{
+   width:220px;
+   border-radius:12px;
+   margin:10px;
+   transition:0.3s;
+}
+
+.project-gallery img:hover{
+   transform:scale(1.08);
+}.project_title{
+    color: rgb(255, 255, 255);
+
+}.txt{
+    color: aliceblue;
+}.edu{
+    display:flex;
+    gap:35px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top: 20px;
+}
+.contactinfo{
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #797474;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 15px rgba(181, 178, 178, 0.3);
+}
+
+
+.contactinfo h3{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+.contactinfo p{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.contactinfo form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.contactinfo input,
+.contactinfo textarea{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+.contactinfo textarea{
+    height: 140px;
+    resize: none;
+}
+
+
+.contactinfo button{
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #00bcd4;
+    color: aliceblue;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contactinfo button:hover{
+    background: #0097a7;
+}
+
+
+.img{
+    width: 45px;
+    height: 45px;
+    margin: 20px 10px 0;
+    transition: 0.3s;
+}
+
+.img:hover{
+    transform: scale(1.2);
+}.footerimg{
+     width: 25px;
+    height: 2cap;
+    padding-top: 15px;
+    
+
+}
+footer{
+    background-color: #000000;
+    color:azure;
+     display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20px;
+    right: 20px;
+
+}.screen{
+    margin-top: 80px;
+}
+
+
+
